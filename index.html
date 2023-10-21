@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1307ffecbe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.ico" class="logo">
+
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Engineer</p>
+            <h1>Hi, I'm <span>Hammad Malik</span><br>From New Delhi, India</h1>
+        </div>
+      </div> 
+</div>
+<!...........about.......>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/full photo.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I have a solid background in computer systems and software development as a Computer Science Engineering graduate. I'm looking for a challenging job in engineering where I can use my knowledge and experience to pick up new skills, broaden my knowledge base, and support the objectives of the company.
+
+                    I have a solid understanding of algorithms, data structures, and programming languages used in computers. I'm skilled in designing and creating software programs, and I've worked on both front-end and back-end development projects. I am quite knowledgeable about operating systems, databases, and computer networking.
+                    
+                    I have a strong sense of motivation and love for software development, and I am constantly looking for opportunities to learn about new technologies and advance my knowledge. I can pick things up quickly and adjust.</p>
+                   
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                  </div>
+                  <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Devbelopment</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Android apps</li>
+                        <li><span>Programming Language</span><br>C, Java and Python</li>
+                        <li><span>DBMS</span><br>My sql</li>
+                        <li><span>Web Creation & Desigining</span><br>HTML, CSS and JavaScript</li>
+                        <li><span>Framework</span><br>React.js, Django and Bootstrap</li>
+                        <li><span>Data Sructure and Algorithm</span><br>Solving Dyanmic Problem</li>
+                        <li><span>Machine Learning</span><br>Analysis and Predict the data.</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Feb 2021 to May 2021</span><br>Cricket Score: Real-time Cricket Scores Chrome Extension at Everest College of Engineering Aurangabad.</li>
+                        <li><span>June 2021 to November 2021</span><br>Airline Reservation system using Java.</li>
+                        <li><span>September 2021 to March 2022</span><br>NewsHub: Real-time News Website powered by News API.</li>
+                        <li><span>November 2022 to 2023</span><br>Crime prediction and analysis using Machine learning at Everest College of Engineering, Aurangabad.</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Bachelor of Engineering 2019 to 2023 at Dr. Baba Saheb Ambedkar Marathwada University, Aurangabad.</span><br>Computer Scinece and Engineering.Engaged in transformative computer science studies, honing skills in coding, algorithms, Problem Solving, Technical Skills and software engineering.</li>
+                        <li><span>May 2017 to April 2019 HSC at Dr. R.M.L.S College of Muzaffarpur.</span><br>Physics, Chemistry and Mathematics with Thrived in upper secondary education, refining advanced learning and critical thinking in science.</li>
+                        <li><span>2005 to May 2016 SSC R K High School Sahila Hathauri Muzaffarpur.</span><br>Gained essential skills and knowledge in secondary school.<li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------services--------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Understanding customer goals and utilizing a variety of tools and technologies allow me to develop websites that are both aesthetically pleasing and user-friendly. Programming languages like HTML, CSS, and JavaScript may fall under this category, as well as design applications like Adobe Creative Suite, Figma, or InVision. Success in this position depends on your originality, design abilities, and capacity to keep up with current trends.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Front-end Developer</h2>
+                <p>I have expertise building attractive and user-friendly websites and applications as a talented front-end and back-end developer. I deliver high-quality products that satisfy client requirements using UI/UX design principles. As a dedicated front-end developer with skills in React and SQL, I create complex user interfaces. I am a front-end developer with a strong analytical background who is skilled in HTML, CSS, JavaScript, and a number of front-end frameworks. I create responsive, dynamic interfaces that cater to customer demands.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>I enjoy working in teams since I'm collaborative and creative, and I'm committed to making appealing and straightforward mobile applications. I create effective and dependable applications that offer the best user experience thanks to my competence in mobile app development languages like Java and Objective-C.I am a skilled mobile app developer with a passion for building sophisticated applications for a variety of sectors. I am constantly working to improve my abilities.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+
+
+    </div>
+
+<!---------------portfolio--------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/m learning.jpg">
+                <div class="layer">
+                    <h3>Crime prediction and analysis using Machine learning</h3>
+                    <p>Describe a system that can evaluate, discover, and forecast different crime probabilities in a specific area.discusses many forms of criminal analysis and crime prediction utilizing a variety of data mining approaches.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/airline.png">
+                <div class="layer">
+                    <h3>Airline Reservation system using Java</h3>
+                    <p>The ticket booking function will be the main focus of this Java major project. After the user enters all of his or her requirements, the application can check at the backend and give us the complete information about flights..
+                        </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/news hub.jpg">
+                <div class="layer">
+                    <h3>NewsHub: Real-time News Website </h3>
+                    <p>Created a user-friendly, aesthetically pleasing design with seamless navigation and classification that enables visitors to explore a variety of topics and quickly obtain the most recent news..</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See more</a> 
+    </div>
+</div>
+<!------------contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>hammadsami13@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91-8448633713</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/hammadsami13?mibextid=9R9pXO"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/_hammaad_abd13?t=rrFdnjAPfRkrmkZzl-pK9Q&s=09"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/hammad-malik13?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/hammaadmalik13"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="images/Hammad Abdullah Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Hammad. Made with Malik<i class="fa-solid fa-jet-fighter-up"></i>Quick</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+       
+        }  
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");  
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+   
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbwVc3sanqzIYgMLgRcwUhCyfSEmzfcHZUimiyTAWhdlJ4IucI4vA6Rejcxk_ymzx4zfdQ/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
